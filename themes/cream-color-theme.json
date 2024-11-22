@@ -1,23 +1,22 @@
 {
-	"name": "Alpen Theme",
-	"type": "light",
+	"name": "Cream Theme",	
 	
-	"semanticTokenColors": 
-	{
-		"bg":  "#f9f9f5",     
-		"bg2": "#f0f0e8",  
+	// "semanticTokenColors": 
+	// {
+	// 	"bg":  "#f9f9f5",     
+	// 	"bg2": "#f0f0e8",  
 
-		"fg":  "#2c3e50",     
-		"fg1": "#bb7977",
-		"fg2": "#a68500",
-		"fg3": "#8080c0",
+	// 	"fg":  "#2c3e50",     
+	// 	"fg1": "#bb7977",
+	// 	"fg2": "#a68500",
+	// 	"fg3": "#8080c0",
 
-		"gray": "#c0c0c0",
-		"red": "#ff0080",
-		"green": "#008000",
-		"yellow": "#fabd2f",
-		"blue": "#0f6ecd",  		
-	},
+	// 	"gray": "#c0c0c0",
+	// 	"red": "#ff0080",
+	// 	"green": "#008000",
+	// 	"yellow": "#fabd2f",
+	// 	"blue": "#0f6ecd",  		
+	// },
 
 	"colors": {
 		"editor.background": "#f9f9f5",		
@@ -102,16 +101,16 @@
 		"editorLineNumber.foreground": "#DDDBD7",
 		"editorLineNumber.activeForeground": "#ff0080",
 		"editorGutter.foldingControlForeground": "#a68500",
-		"editor.foldBackground": "#a68500",
+		"editor.foldBackground": "#ff000000",
 
 		"editorCursor.foreground": "#bb7977",
 		"terminalCursor.foreground": "#bb7977",
 
 		"editor.selectionBackground": "#fabd2f",
-		"editor.wordHighlightBackground": "#fabd2f",
+		"editor.wordHighlightBackground": "#ff000000",
 		
-		"editor.selectionHighlightBackground": "#fabd2f",
-		"editor.findMatchHighlightBackground": "#fabd2f"
+		"editor.selectionHighlightBackground": "#ff000000",
+		"editor.findMatchHighlightBackground": "#ff000000"
 
 	},
 
@@ -745,8 +744,6 @@
 			}
 		},
 
-		// yoko scope
-
 		{
 			"name": "Operator 2",
 			"scope": [
@@ -849,8 +846,6 @@
 			"foreground": "#2c3e50"
 			}
 		}
-
-		// end yoko scope
 
 	]
 }
